@@ -1,0 +1,21 @@
+.today-hourly-container {
+	display: flex;
+	justify-content: start;
+	overflow-x: scroll;
+}
+
+.hour-card {
+	background-color: rgb(158, 210, 210);
+	min-width: 4rem;
+	height: 8rem;
+	margin: 1rem;
+	position: relative;
+	border-radius: 12px;
+	overflow: hidden;
+	border: none;
+	text-align: center;
+	color: darkslategray;
+	& p {
+		margin-block: 0.5rem;
+	}
+}

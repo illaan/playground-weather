@@ -1,0 +1,47 @@
+.forecast-container {
+	margin-left: 1.5rem;
+	width: 35%;
+	margin-block: 2rem;
+	color: black;
+	background-color: rgb(46, 47, 60);
+	border-radius: 30px;
+}
+
+.forecast-day {
+	display: flex;
+	align-items: center;
+	padding-inline: 1rem;
+	margin: auto;
+	margin-top: 0.5rem;
+	background-color: rgba(119, 195, 195, 0.682);
+	border-radius: 30px;
+	width: 80%;
+}
+
+.forecast-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: aliceblue;
+	margin-inline: 1.5rem;
+}
+
+.forecast-buttons {
+	background-color: rgb(35, 35, 43);
+	border-radius: 20px;
+	padding-inline: 0.3rem;
+
+	& button {
+		background-color: rgb(35, 35, 43);
+		border: none;
+		color: aliceblue;
+		border-radius: 20px;
+		font-size: large;
+		padding: 0.5rem;
+	}
+	& button.active {
+		background-color: aliceblue;
+		padding: 0.5rem;
+		color: black;
+	}
+}
