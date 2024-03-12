@@ -13,7 +13,7 @@ function App() {
 	const [searchTerm, setSearchTerm] = useState("Sarajevo");
 	const [cityName, setCityName] = useState("");
 
-	const apiKey = "1af84cdeaeaf8c46efda3af9b649b69b";
+	const apiKey = "0a0c4c03f42b1da96d53d4deebb3a15c";
 
 	//uncomment for fetching real humidity and preassure data
 
